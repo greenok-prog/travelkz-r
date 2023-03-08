@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    width: 100%;
+    padding: 0 3%;
+    margin: 0 auto;
+    
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #cccccc;
+border-radius: 25%;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #cdcdcd; 
+}
+.section_title{
+    font-size: 32px;
+    font-weight: normal;
+    text-align: left;
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 1rem;
+    
+}
+.attractions{
+    margin-top: 2rem;
+}
+.attractions__list{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-wrap: wrap;
+}
+.attractions__list_item{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    
+    
+}
+.attractions__list_item:not(:first-child){
+    margin-left: 2rem;
+}
+.scale{
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+}
+.card_image{
+    width: 100%;
+    height: 100%;
+    display: block;
+    min-height: 226px;
+    object-fit: cover;
+    transition: transform 1s ease-out;
+}
+.card_image:hover{
+    transform: scale(1.2);
+}
+.card_info .place{
+    margin-top: 0.5rem;
+    font-size: 14px;
+}
+.place span{
+    color: blue;
+}
+.card_title{
+    margin-top: 0.3rem;
+    font-size: 16px;
+}
+.card_more{
+   margin-top: 0.6rem;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    justify-content: center;
+    background-color: transparent;
+    background-color: #04234c;
+    padding: 0.4rem 0;
+    color: white;
+    
+    
+}
+.card_more svg{
+    margin-left: 0.6rem;
+    margin-right: 0.2rem;
+    
+}
+
+.card_more:hover svg{
+    fill: #04234c;
+}
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    text-align: center;
+    
+    padding: 1rem 0;
+    height: 50px;
+    border-top: 1px solid #d3d3d3;
+    color: #8b8b8b;
+}
+.rating-result {
+	width: 265px;
+	margin: 0 auto;
+}
+.rating-result span {
+	padding: 0;
+	font-size: 18px;
+	
+	line-height: 1;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-result > span:before {
+	content: '★';
+}
+.rating-result > span.active {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+
+@media(max-width:1150px){
+    
+    
+    .todo{
+        padding: 0 3%;
+    }
+    .burger_btn{
+        display: block;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar_links{
+        display: none;
+    }
+    .city_info{
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+    }
+    .city_info__images{
+        width: 100%;
+        margin: 0;
+        margin-top: 2rem;
+        
+    }
+    .city_info__image{
+        width: 100%;
+    }
+    .city_info__images{
+        margin-top: 3rem;
+        width: 100%;
+    }
+    .city_info__block{
+        display: block;
+    }
+    .city_info__text{
+        
+        width: 100%;
+    }
+    .city_districts{
+        padding: 0 3%;
+    }
+    .population p{
+        padding: 0 3%;
+    }
+}
+@media (max-width:700px) {
+    .attractions__list{
+        justify-content: space-between;
+        margin-top: 2rem;
+        
+    }
+    .attractions__list_item{
+        margin-left: 0;
+    }
+}
+@media (max-width:600px) {
+    .attractions__list{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .card_image{
+        display: flex;
+        justify-content: center;
+    }
+    .attractions__list_item{
+        margin-left: 0;
+        margin-top: 1rem;
+        min-width: 100%;
+        
+    }
+    .attractions__list_item:not(:first-child) {
+        margin-left: 0;
+    }
+    .section_title{
+        font-size: 28px;
+        text-align: center;
+    }
+    .rating-result{
+        margin: 0;
+    }
+    .card_title{
+        font-size: 24px;
+    }
+}

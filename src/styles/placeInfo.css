@@ -1,0 +1,125 @@
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    padding: 0 3%;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.header_text{
+    z-index: 2;
+    position: relative;
+    
+}
+.header_image{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    object-fit: cover;
+    background-size: cover;
+}
+.header_title{
+    margin-top: 5rem;
+}
+.subtitle_info{
+    margin-top: 1rem;
+    font-size: 1.4em;
+    font-style: italic;
+}
+.main_text{
+    margin-top: 0.7rem;
+    font-size: 16px;
+    color: rgb(45, 45, 45);
+    text-align: justify;
+}
+.main_image{
+    margin-top: 0.7rem;
+}
+.arrow_container{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    z-index: 3;
+}
+.main_title{
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 1.5rem;
+}
+.place_images__list .main_image{
+    margin-top: 2rem;
+}
+.map{
+    margin-top: 1rem;
+    width: 100%;
+    height: auto;
+    min-height: 350px;
+}
+.footer{
+    position: relative;
+}
+@media(max-width:600px){
+    .container{
+        padding: 0;
+    }
+    .header_title{
+        font-size: 38px;
+    }
+    .header_subtitle{
+        display: block;
+        font-size: 24px;
+    }
+}
+@media(max-width:1150px){
+    .todo{
+        padding: 0 3%;
+    }
+    .burger_btn{
+        display: block;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar_links{
+        display: none;
+    }
+    .city_info{
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+    }
+    .city_info__images{
+        width: 100%;
+        margin: 0;
+        margin-top: 2rem;
+        
+    }
+    .city_info__image{
+        width: 100%;
+    }
+    .city_info__images{
+        margin-top: 3rem;
+        width: 100%;
+    }
+    .city_info__block{
+        display: block;
+    }
+    .city_info__text{
+        
+        width: 100%;
+    }
+    .city_districts{
+        padding: 0 3%;
+    }
+    .population p{
+        padding: 0 3%;
+    }
+}

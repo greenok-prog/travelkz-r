@@ -1,0 +1,231 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+
+
+
+.container{
+    z-index: 10px;
+    width: 100%;
+    padding: 0 3%;
+    margin: 0 auto;
+    
+}
+.container-mini{
+    padding: 0 20%;
+    margin: 0 auto;
+}
+.main_image{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* almaty info block */
+.city_info__block{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    min-height: 100%;
+    
+}
+.city_info{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 50%;
+    min-width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #cccccc;
+border-radius: 25%;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #cdcdcd; 
+}
+.city_info__title{
+ font-size: 36px;
+}
+.city_info__text{
+    margin-top: 2rem;
+    padding-right: 1rem;
+    color: #8b8b8b;
+    max-height: 350px;
+    overflow-y: scroll;
+    font-size: 18px;
+    font-weight: lighter;
+    height: 100%;
+}
+.city_info__images{
+    width: 40%;
+    height: 100%;
+    display: flex;
+   justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-left: 6rem;
+}
+
+.city_info__image{
+    max-width: 100%;
+    width: 27%;
+    background-size: cover;
+    height: auto;
+    
+    
+}
+.city_info__image:nth-child(1){
+    width: 39%;
+    margin-bottom: 0.5rem;
+}
+.city_info__image:nth-child(2){
+    width: 60%;
+    margin-bottom: 0.5rem;
+}
+.city_info__image:nth-child(3){
+    width: 100%;
+}
+
+.city_districts{
+    padding: 0 15%;
+    margin-top: 5rem;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.city_districts__text{
+    color: #8b8b8b;
+    margin-top: 2rem;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: lighter;
+    height: 100%;
+}
+.title{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+p{
+    color: #8b8b8b;
+    margin-bottom: 0.5rem;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.city_map{
+    margin-top: 4rem;
+}
+.map{
+    margin-top: 2rem;
+}
+.population{
+    margin-top: 4rem;
+}
+.population p{
+    margin-top: 1rem;
+    padding: 0 15%;
+}
+.todo{
+    margin-top: 4rem;
+    padding: 0 15%;
+}
+.todo_list{
+    margin-top: 2rem;
+}
+.todo_list__item{
+    list-style-type: disc;
+    color: #8b8b8b;
+    margin-bottom: 0.5rem;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.footer-main{
+    text-align: center;
+    margin-top: 5rem;
+    padding: 1rem 0;
+    border-top: 1px solid #d3d3d3;
+    color: #8b8b8b;
+}
+
+
+/* attractions */
+
+
+
+
+
+
+/* media queries */
+
+@media(max-width:1150px){
+    .todo{
+        padding: 0 3%;
+    }
+   
+    .city_info{
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+    }
+    .city_info__images{
+        width: 100%;
+        margin: 0;
+        margin-top: 2rem;
+        
+    }
+    .city_info__image{
+        width: 100%;
+    }
+    .city_info__images{
+        margin-top: 3rem;
+        width: 100%;
+    }
+    .city_info__block{
+        display: block;
+    }
+    .city_info__text{
+        
+        width: 100%;
+    }
+    .city_districts{
+        padding: 0 3%;
+    }
+    .population p{
+        padding: 0 3%;
+    }
+}
+

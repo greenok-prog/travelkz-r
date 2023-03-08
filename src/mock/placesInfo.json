@@ -1,0 +1,20 @@
+{
+    "attractions":[
+        {
+            "id":1,
+            "title":"Парк",
+            "cardImage":"card1.jpg",
+            "rating":5,
+            "area":"Талгарский район",
+            "place":"Гульдала"
+        },
+        {
+            "id":2,
+            "title":"Парк 2",
+            "cardImage":"at1.jpg",
+            "rating":4,
+            "area":"Талгарский район дада",
+            "place":"Гульдала"
+        }
+]
+}
