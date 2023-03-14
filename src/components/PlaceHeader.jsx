@@ -2,9 +2,9 @@ import React from 'react'
 
 const PlaceHeader = ({image, title}) => {
     
-    const imageUrl = require(`../assets/attractions/${image}`)
+    const imageUrl = require(`../assets/places/${image}`)
   return (
-    <div><header className="header_main">
+    <div><header className='header-place'>
     <img className="header_image" src={imageUrl} alt="" />
     <div className="container">
       <nav className="navbar">

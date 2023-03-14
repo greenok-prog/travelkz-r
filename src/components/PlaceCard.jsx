@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const PlaceCard = ({item}) => {
     const {title, place, rating, area, cardImage, id} = item
     
-    const image = require(`../assets/attractions/${cardImage}`)
+    const image = require(`../assets/places/${cardImage}`)
   return (
     <div className="attractions__list_item">
         <Link to={`/places/${id}`} className="scale">

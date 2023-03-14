@@ -16,8 +16,8 @@ const HeaderSecond = () => {
         setMenu(false)
     }
   return (
-    <header>
-    <nav className="navbar">
+    <header >
+    <nav className="navbar-list">
     <Link to={'/'} className="logo">
           <h3>TravelKZ</h3>
         </Link>
