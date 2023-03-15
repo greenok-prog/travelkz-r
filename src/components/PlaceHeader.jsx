@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const PlaceHeader = ({image, title}) => {
     
@@ -8,15 +9,14 @@ const PlaceHeader = ({image, title}) => {
     <img className="header_image" src={imageUrl} alt="" />
     <div className="container">
       <nav className="navbar">
-        <a className="logo">
-          <h3>TravelKZ</h3>
-        </a>
+      
+          <Link className="logo" to={'/react-travelkz'}><h3>TravelKZ</h3></Link>
+        
         <ul className="navbar_links">
-          <a className="navbar_link" href="attractions.html">
-            Достопримечательности
-          </a>
-          <a className="navbar_link">Еда</a>
-          <a className="navbar_link">Интересные места</a>
+          <Link className="navbar_link" to={'/attractions'}>Достопримечательности</Link>
+          <Link className="navbar_link" to={'/food'}>Еда</Link>
+         
+         
         </ul>
         <div className="burger_btn">
           <svg xmlns="http://www.w3.org/2000/svg" height={36} width={36}>

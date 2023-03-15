@@ -10,6 +10,10 @@ const PlaceInfo = () => {
   
   
   const currentPlace = places.attractions.find(el => id === String(el.id))
+  const getImage = (el) => {
+    return require(`../assets/places/${el.url}`)
+  }
+  
   
   return (
     <div><>
@@ -19,10 +23,10 @@ const PlaceInfo = () => {
         {currentPlace.subtitle}
       </p>
       <div className="main_info">
-        {currentPlace.text.map(el => (
-          typeof el === "string" ?  <p className="main_text">
+        {currentPlace.text.map((el, index) => (
+          typeof el === "string" ?  <p key={index} className="main_text">
           {el}
-        </p> :  <img className="main_image" src={require(`../assets/places/${el.url}`)} alt={el.alt} />
+        </p> :  <img key={index} className="main_image" src={getImage(el)} alt={el.alt} />
         ))}
        
         </div>

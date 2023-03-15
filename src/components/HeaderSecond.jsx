@@ -18,7 +18,7 @@ const HeaderSecond = () => {
   return (
     <header >
     <nav className="navbar-list">
-    <Link to={'/'} className="logo">
+    <Link to={'/react-travelkz'} className="logo">
           <h3>TravelKZ</h3>
         </Link>
       <ul className="navbar_links">
