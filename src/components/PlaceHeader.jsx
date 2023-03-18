@@ -10,7 +10,7 @@ const PlaceHeader = ({image, title}) => {
     <div className="container">
       <nav className="navbar">
       
-          <Link className="logo" to={'/react-travelkz'}><h3>TravelKZ</h3></Link>
+          <Link className="logo" to={'/travelkz-r'}><h3>TravelKZ</h3></Link>
         
         <ul className="navbar_links">
           <Link className="navbar_link" to={'/attractions'}>Достопримечательности</Link>

@@ -20,7 +20,7 @@ const Header = () => {
     <header className="header_main">
     
       <nav className="navbar">
-        <Link to={'/react-travelkz'} className="logo">
+        <Link to={'/travelkz-r'} className="logo">
           <h3>TravelKZ</h3>
         </Link>
         <ul className="navbar_links">

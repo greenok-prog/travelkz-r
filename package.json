@@ -1,6 +1,6 @@
 {
   "name": "travel-kz",
-  "homepage": "https://greenok-prog.github.io/react-travelkz",
+  "homepage": "https://greenok-prog.github.io/travelkz-r",
   "version": "0.1.0",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

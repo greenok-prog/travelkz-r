@@ -13,7 +13,7 @@ import PlaceInfo from './components/PlaceInfo';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
   {
-    path:'/react-travelkz',
+    path:'/travelkz-r',
     element: <Home/>
   },
   {
