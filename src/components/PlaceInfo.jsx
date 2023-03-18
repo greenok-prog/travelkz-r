@@ -4,6 +4,7 @@ import places from '../mock/placesInfo.json'
 
 import '../styles/placeInfo.css'
 import PlaceHeader from './PlaceHeader'
+import Slider from './Slider'
 
 const PlaceInfo = () => {
   const {id} = useParams()
@@ -30,18 +31,11 @@ const PlaceInfo = () => {
         ))}
        
         </div>
-      {/* <div className="place_images">
-        <h2 className="main_title">
-          Фотографии Парк имени 28 гвардейцев-панфиловцев
+        {currentPlace.images && <>
+          <h2 className="main_title">
+        {currentPlace.title} фотографии
         </h2>
-        <div className="place_images__list">
-          <img
-            className="main_image"
-            src="./assets/places/panfilova1.jpg"
-            alt=""
-          />
-        </div>
-      </div> */}
+        <Slider images={currentPlace.images}/></>}
     </main>
     <div className="place_map">
       <h2 className="main_title">

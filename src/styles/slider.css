@@ -1,0 +1,15 @@
+.slider{
+    max-height: 500px;
+    margin-top: 1.5rem;
+}
+.slide{
+    position: relative;
+}
+.slide_image{
+   
+    min-width: 100%;
+    
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+}

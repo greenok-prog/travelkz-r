@@ -61,11 +61,12 @@ flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     max-width: 250px;
+    margin-right: 2rem;
     
     
 }
 .attractions__list_item:not(:first-child){
-    margin-left: 2rem;
+    
 }
 .scale{
     display: inline-block;
@@ -208,13 +209,14 @@ flex-wrap: wrap;
     }
     .attractions__list_item{
         margin-left: 0;
+        margin-right: 0;
     }
 }
 @media (max-width:600px) {
     .attractions__list{
         display: flex;
         justify-content: center;
-        padding: 0 3%1;
+        padding: 0 3%;
         
     }
     .card_image{

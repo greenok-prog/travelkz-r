@@ -67,16 +67,17 @@
 .main_title{
     text-align: center;
     font-size: 1.8em;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 }
 .place_images__list .main_image{
     margin-top: 2rem;
 }
 .map{
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     width: 100%;
     height: auto;
     min-height: 350px;
+    margin-bottom: 2rem;
 }
 .footer{
     position: relative;
@@ -85,15 +86,19 @@
     .container{
         padding: 0;
     }
-    .header_title{
-        font-size: 38px;
-    }
+    
     .header_subtitle{
         display: block;
         font-size: 24px;
     }
 }
 @media(max-width:1150px){
+    .header_title{
+        font-size: 38px;
+    }
+    .container-mini{
+        padding: 0 3%;
+    }
     .todo{
         padding: 0 3%;
     }
