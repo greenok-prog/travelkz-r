@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 
 
@@ -9,7 +9,7 @@ const PlaceCard = ({item}) => {
   return (
     <div className="attractions__list_item">
         <Link to={`/places/${id}`} className="scale">
-          <img className="card_image" src={image} />
+          <img className="card_image" src={image} alt={title} />
         </Link>
         <div className="card_info">
           <div className="place">
@@ -18,7 +18,7 @@ const PlaceCard = ({item}) => {
           <h4 className="card_title">{title}</h4>
           <div className="rating-result">
            {[1,2,3,4,5].map((el, index) => (
-            <span className={index < rating ? 'active' : ''}></span>
+            <span key={index} className={index < rating ? 'active' : ''}></span>
             
            ))}
           </div>

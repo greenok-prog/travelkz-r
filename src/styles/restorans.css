@@ -1,0 +1,62 @@
+.restorans{
+    margin-top: 2rem;
+}
+.restorans_subtitle{
+    margin-top: 1rem;
+}
+.restoran_list{
+    margin-top: 2rem;
+}
+.restoran_item{
+    margin-top: 2rem;
+}
+.restoran_info{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.restoran_info__text{
+    width: 50%;
+    font-size: 16px;
+   
+}
+.restoran_title{
+    color: #f2be13;
+    font-size: 26px;
+    width: 100%;
+    padding-bottom: 0.3rem;
+    border-bottom: 2px solid #f2be13;
+}
+
+.restoran_info__image{
+    width: 45%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.restoran_info__image:nth-child(2n){
+    order: 1;
+  
+}
+.restoran_info__text:nth-child(2n){
+    order: 2;
+    
+    
+}
+
+@media(max-width:700px){
+    .restoran_info__text{
+        width: 100%;
+        order: 2;
+        margin-top: 0.5rem;
+        
+    }
+    .restoran_info__image{
+        width: 100%;
+        order: 1;
+        margin-top: 1rem;
+    }
+}

@@ -216,9 +216,10 @@ p{
     }
     .city_info__block{
         display: block;
+        padding: 0 3%;
     }
     .city_info__text{
-        
+        padding-right: 0;
         width: 100%;
     }
     .city_districts{

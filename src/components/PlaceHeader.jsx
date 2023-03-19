@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const PlaceHeader = ({image, title}) => {
-    
+  const [menu, setMenu] = useState(false)
+  const openMenu = () => {
+      setMenu(true)
+  }
+  const closeMenu = () => {
+      setMenu(false)
+  }
     const imageUrl = require(`../assets/places/${image}`)
   return (
     <div><header className='header-place'>
@@ -18,7 +24,7 @@ const PlaceHeader = ({image, title}) => {
          
          
         </ul>
-        <div className="burger_btn">
+        <div className="burger_btn" onClick={openMenu}>
           <svg xmlns="http://www.w3.org/2000/svg" height={36} width={36}>
             <path
               fill="#ffff"
@@ -26,9 +32,10 @@ const PlaceHeader = ({image, title}) => {
             />
           </svg>
         </div>
-        <div className="sidebar_menu">
+        <div className={`sidebar_menu ${menu ? 'menu-opened' : ''}`}>
           <div className="close_sidebar__block">
             <svg
+            onClick={closeMenu}
               className="close_sidebar__button"
               xmlns="http://www.w3.org/2000/svg"
               height={36}
@@ -38,15 +45,12 @@ const PlaceHeader = ({image, title}) => {
             </svg>
           </div>
           <ul className="sidebar_links">
-            <a className="sidebar_link" href="#">
+            <Link className="sidebar_link" to={'/attractions'}>
               Достопримечательности
-            </a>
-            <a className="sidebar_link" href="#">
+            </Link>
+            <Link className="sidebar_link" to={'/food'}>
               Еда
-            </a>
-            <a className="sidebar_link" href="#">
-              Интересные места
-            </a>
+            </Link>
           </ul>
         </div>
       </nav>
