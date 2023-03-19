@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/travelkz-r/static/css/main.22f50cb5.css",
-    "main.js": "/travelkz-r/static/js/main.aa851559.js",
+    "main.css": "/travelkz-r/static/css/main.c2954920.css",
+    "main.js": "/travelkz-r/static/js/main.f163f94f.js",
     "static/js/787.5903efc1.chunk.js": "/travelkz-r/static/js/787.5903efc1.chunk.js",
     "static/media/2-4.jpg": "/travelkz-r/static/media/2-4.2bba3c5e38c5569f04fa.jpg",
+    "static/media/r-7.png": "/travelkz-r/static/media/r-7.db7b0205df686479f4d7.png",
+    "static/media/r-3.png": "/travelkz-r/static/media/r-3.7eaf9ee6bad6367e6e08.png",
     "static/media/1-23.jpg": "/travelkz-r/static/media/1-23.1a9bd8ace4acabe10387.jpg",
     "static/media/1.jpg": "/travelkz-r/static/media/1.1a9bd8ace4acabe10387.jpg",
     "static/media/header1.jpg": "/travelkz-r/static/media/header1.96f0c2ce06b351ea101a.jpg",
@@ -23,19 +25,25 @@
     "static/media/2-3.jpg": "/travelkz-r/static/media/2-3.5730618961ec787dc5b0.jpg",
     "static/media/3-4.jpg": "/travelkz-r/static/media/3-4.230b12f2fd1aa54d9500.jpg",
     "static/media/4-1.jpg": "/travelkz-r/static/media/4-1.74144e471853eeb047b4.jpg",
+    "static/media/restoran.jpg": "/travelkz-r/static/media/restoran.212ea157768007b5b1a0.jpg",
+    "static/media/r-1.jpg": "/travelkz-r/static/media/r-1.9d209f428418f3b432ee.jpg",
+    "static/media/r-5.jpg": "/travelkz-r/static/media/r-5.0d62cde909b47de4ab99.jpg",
     "static/media/1-2.jpg": "/travelkz-r/static/media/1-2.d104f969876fce685101.jpg",
     "static/media/4-4.jpg": "/travelkz-r/static/media/4-4.fed6e3e3cc449181346c.jpg",
+    "static/media/r-2.jpg": "/travelkz-r/static/media/r-2.6a94bdc7cabac09f6717.jpg",
     "static/media/3.jpg": "/travelkz-r/static/media/3.37468eca436745c3a974.jpg",
+    "static/media/r-4.jpg": "/travelkz-r/static/media/r-4.cac217df43334e7b7d71.jpg",
     "static/media/3-3.jpg": "/travelkz-r/static/media/3-3.63a3e38847da074c1cb7.jpg",
+    "static/media/r-6.jpg": "/travelkz-r/static/media/r-6.06bbd253fc38ce3a0ba4.jpg",
     "static/media/info-3.jpg": "/travelkz-r/static/media/info-3.c183175624e8c22ba277.jpg",
     "static/media/logo.svg": "/travelkz-r/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/travelkz-r/index.html",
-    "main.22f50cb5.css.map": "/travelkz-r/static/css/main.22f50cb5.css.map",
-    "main.aa851559.js.map": "/travelkz-r/static/js/main.aa851559.js.map",
+    "main.c2954920.css.map": "/travelkz-r/static/css/main.c2954920.css.map",
+    "main.f163f94f.js.map": "/travelkz-r/static/js/main.f163f94f.js.map",
     "787.5903efc1.chunk.js.map": "/travelkz-r/static/js/787.5903efc1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22f50cb5.css",
-    "static/js/main.aa851559.js"
+    "static/css/main.c2954920.css",
+    "static/js/main.f163f94f.js"
   ]
 }
