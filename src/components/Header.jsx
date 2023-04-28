@@ -5,6 +5,7 @@ import '../styles/navbar.css'
 const links = [
     {to:'/attractions', title:'Достопримечательности'},
     {to:'/food', title:'Еда'},
+    {to:'/contacts', title:'Контакты'}
     
 
 ]

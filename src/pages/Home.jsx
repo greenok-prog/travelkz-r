@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import info1 from '../assets/almaty/info-1.jpg'
 import info2 from '../assets/almaty/info-2.jpg'
 import info3 from '../assets/almaty/info-3.jpg'
@@ -7,6 +7,7 @@ import '../styles/home.css'
 
 
 const Home = () => {
+  const isFull = useState(false)
   return (
     <div><>
     <Header/>

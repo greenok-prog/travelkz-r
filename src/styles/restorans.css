@@ -30,7 +30,33 @@
     padding-bottom: 0.3rem;
     border-bottom: 2px solid #f2be13;
 }
+.restoran_social{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.restoran__location{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
 
+}
+.restoran__location img{
+    width: 24px;
+    height: auto;
+    margin-right: 5px;
+}
+.restoran__location span{
+    margin-bottom: 2px;
+}
+.restoran__media img{
+    width: 24px;
+    height: auto;
+    margin-left: 10px;
+}
 .restoran_info__image{
     width: 45%;
     max-height: 400px;

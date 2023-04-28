@@ -8,6 +8,8 @@ import Home from './pages/Home';
 import Attractions from './pages/Attractions';
 import FoodPlaces from './pages/FoodPlaces';
 import PlaceInfo from './components/PlaceInfo';
+import ImageContext from './context/ImageContext';
+import Contacts from './pages/Contacts';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -27,13 +29,19 @@ const router = createBrowserRouter([
   {
     path:'/places/:id',
     element:<PlaceInfo/>
+  },
+  {
+    path:'/contacts',
+    element:<Contacts/>
   }
 ])
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router}>
-    <App />
-    </RouterProvider>
+    <ImageContext>
+      <RouterProvider router={router}>
+      <App />
+      </RouterProvider>
+    </ImageContext>
   </React.StrictMode>
 );
 
