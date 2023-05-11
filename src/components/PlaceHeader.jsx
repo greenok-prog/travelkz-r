@@ -21,6 +21,7 @@ const PlaceHeader = ({image, title}) => {
         <ul className="navbar_links">
           <Link className="navbar_link" to={'/attractions'}>Достопримечательности</Link>
           <Link className="navbar_link" to={'/food'}>Еда</Link>
+          <Link className="navbar_link" to={'/hotels'}>Бронирование</Link>
           <Link className="navbar_link" to={'/contacts'}>Контакты</Link>
          
          

@@ -10,6 +10,7 @@ import FoodPlaces from './pages/FoodPlaces';
 import PlaceInfo from './components/PlaceInfo';
 import ImageContext from './context/ImageContext';
 import Contacts from './pages/Contacts';
+import Hotels from './pages/Hotels';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path:'/contacts',
     element:<Contacts/>
+  },
+  {
+    path:'/hotels',
+    element: <Hotels/>
   }
 ])
 root.render(

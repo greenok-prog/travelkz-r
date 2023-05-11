@@ -1,0 +1,125 @@
+.hotel{
+    padding: 10px;
+    border: 2px solid rgb(196, 196, 196);
+    margin-top: 40px;
+}
+.hotel__top{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.hotel__image{
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+}
+.hotel__info{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+.hotel__name{
+    font-size: 24px;
+}
+.hotel__rating{
+    margin: 0;
+    margin-top: 5px;
+}
+.hotel__adres{
+    margin-top: 10px;
+}
+.hotel__comfort{
+    color: black;
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: start;
+
+}
+.hotel__bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.hotel__variables{
+    width: 70%;
+    margin-top: 10px;
+
+}
+.hotel__variables-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 10px;
+    align-items: center;
+    border-bottom: 1px solid #cbcbcb;
+    
+
+}
+
+.hotel__variables-name{
+    color: black;
+    font-size: 14px;
+    width: 80%;
+}
+.hotel__variables-price{
+    font-size: 18px;
+    width: 20%;
+    
+    
+}
+.hotel__price{
+    margin-top: 10px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #cbcbcb;
+    padding-bottom: 10px;
+}
+.hotel__price-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.hotel__price-inner h3{
+    margin-top: 5px;
+}
+.hotel__price-inner span{
+    font-size: 14px;
+}
+.hotel__price-inner button{
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 5px 15px;
+    background-color: #f2be13;
+    font-weight: 700;
+    color: white;
+    outline: none;
+    border: none;
+}
+@media (max-width:700px) {
+    .hotel__top{
+        flex-direction: column;
+    }
+    .hotel__info{
+        margin-left: 0;
+    }
+    .hotel__image{
+        width: 100%;
+        max-width: 100%;
+    }
+    .hotel__bottom{
+        flex-direction: column;
+    }
+    .hotel__variables{
+        width: 100%;
+    }
+    .hotel__price{
+        width: 80%;
+        margin: 10px auto;
+    }
+}
